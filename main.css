@@ -1,0 +1,108 @@
+:root {
+  --main-bg-color: #f2f6e9;
+  --accent-green: #a2c777;
+  --darker-accent-green: #4f6632;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background: var(--main-bg-color);
+}
+
+/*--- navigation bar ---*/
+.navbar {
+  background:var(--accent-green);
+}
+.nav-link,
+.navbar-brand {
+  color: var(--darker-accent-green);
+  cursor: pointer;
+}
+.nav-link {
+  margin-right: 1em !important;
+}
+.nav-link:hover {
+  color: var(--darker-accent-green);
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+/*--- Header ---*/
+.header {
+  background-image: url('images/white-window-glass-shield.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.6);
+}
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+.description h1 {
+  color: var(--darker-accent-green);
+}
+.description p {
+  color: #000000;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+.description button {
+  border:1px solid var(--darker-accent-green);
+  background:var(--darker-accent-green);
+  border-radius: 5;
+  color:#fff;
+}
+.description button:hover {
+  border:1px solid var(--accent-green);
+  background: var(--accent-green);
+  color:#000;
+}
+
+/*--- Three Data Columns ---*/
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+.feature-title {
+  color: var(--darker-accent-green);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.features img {
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+.features .form-control,
+.features input {
+    border-radius: 5;
+}
+.features .btn {
+  border:1px solid var(--darker-accent-green);
+  background:var(--darker-accent-green);
+  border-radius: 5;
+  color:#fff;
+  margin-top: 20px;
+}
+.features .btn:hover {
+  border:1px solid var(--accent-green);
+  background: var(--accent-green);
+  color:#000;
+}
