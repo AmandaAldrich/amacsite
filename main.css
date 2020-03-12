@@ -2,6 +2,7 @@
   --main-bg-color: #f2f6e9;
   --accent-green: #a2c777;
   --darker-accent-green: #4f6632;
+  --softer-accent-green: #dfe8ca;
 }
 
 body {
@@ -59,13 +60,13 @@ body {
   font-size: 1.3rem;
   line-height: 1.5;
 }
-.description button {
+.description a {
   border:1px solid var(--darker-accent-green);
   background:var(--darker-accent-green);
   border-radius: 5;
   color:#fff;
 }
-.description button:hover {
+.description a:hover {
   border:1px solid var(--accent-green);
   background: var(--accent-green);
   color:#000;
@@ -105,4 +106,88 @@ body {
   border:1px solid var(--accent-green);
   background: var(--accent-green);
   color:#000;
+}
+.features a {
+	color: var(--darker-accent-green);
+	text-decoration: underline;
+}
+
+/**Testimonials**/
+.testimonials {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+}
+.testimonials h3 {
+  color: var(--darker-accent-green);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.testimonials-box {
+  background-color: var(--softer-accent-green);
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+  margin-bottom: 16px;
+}
+.testimonials-title {
+  color: var(--darker-accent-green);
+  font-size: 1.3rem;
+  font-weight: 450;
+  font-style: italic;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/**contact stuff**/
+.contact-title {
+  color: var(--darker-accent-green);
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.contact .btn {
+  border:1px solid var(--darker-accent-green);
+  background:var(--darker-accent-green);
+  border-radius: 5;
+  color:#fff;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.contact .btn:hover {
+  border:1px solid var(--accent-green);
+  background: var(--accent-green);
+  color:#000;
+}
+.list-inline {
+	margin-bottom: 10px;
+}
+.contact h4 {
+  color: var(--darker-accent-green);
+  font-size: 1.3 rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.contact p {
+	color: var(--darker-accent-green);
+	text-align: center;
+}
+
+.footer {
+	background: var(--accent-green);
+	padding: 1px 0;
+}
+
+.details p {
+	color: var(--darker-accent-green);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
 }
