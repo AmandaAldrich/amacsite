@@ -5,6 +5,9 @@
   --softer-accent-green: #dfe8ca;
 }
 
+html {
+	scroll-behavior: smooth;
+}
 body {
   padding: 0;
   margin: 0;
@@ -23,7 +26,8 @@ body {
 .nav-link {
   margin-right: 1em !important;
 }
-.nav-link:hover {
+.nav-link:hover,
+.navbar-brand:hover {
   color: var(--darker-accent-green);
 }
 .navbar-collapse {
